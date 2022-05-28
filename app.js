@@ -13,6 +13,6 @@ app.use("/api/place", validation, placeRouter);
 
 app.use("/api/user", userRouter);
 
-app.listen(1100, () => {
-  console.log("Server listening on port 1100.");
+app.listen(443, () => {
+  console.log("Server listening on port 443.");
 });
